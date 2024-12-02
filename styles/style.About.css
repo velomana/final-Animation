@@ -1,0 +1,257 @@
+Body{
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100%;
+    
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+   
+}
+
+.about-headline{
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.sections-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.about-profile{
+    display: grid;
+    grid-template-columns: auto;
+    width: 50%;
+}
+
+.ID-adj{
+    width:fit-content;
+    height: auto;
+}
+
+.personal-Info{
+    display:grid;
+    grid-template-columns: auto;
+    width: 50%;
+}
+.Info-details-container{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.Info-details-container>p{
+    padding-left: 30px;
+    padding-right:30px;
+    text-align: justify ;
+}
+
+
+
+
+
+
+
+/*Mobile size*/
+@media   (max-width:550px )
+{
+    .Header-Container{
+    
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    .sections-wrapper{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    
+    .about-profile{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .ID-adj{
+        width:500px;
+    }
+    
+    .personal-Info{
+        width: 100%;
+    }
+    
+    
+    .Info-details-container>p{
+        padding-left: 60px;
+        padding-right:60px;
+    }
+    .Footer-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left-side-footer>h3{
+        margin-top: 20px;
+        text-align: center;
+        color:black;
+    }
+
+    .left-side-footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-side-footer>h3{
+        text-align: center;
+        color:black;
+    }
+
+    .right-side-footer{
+        width: 100%;
+    }
+
+    
+}
+
+/*Tablette*/
+@media only screen and (min-width:551px ) and (max-width:750px){
+    .Header-Container{
+    
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    .sections-wrapper{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    
+    .about-profile{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .ID-adj{
+        width:700px;
+    }
+    
+    .personal-Info{
+        width: 100%;
+    }
+    
+    .Footer-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left-side-footer>h3{
+        margin-top: 20px;
+        text-align: center;
+        color:black;
+    }
+
+    .left-side-footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-side-footer>h3{
+        text-align: center;
+        color:black;
+    }
+
+    .right-side-footer{
+        width: 100%;
+    }
+}
+
+/*desktop*/
+@media (min-width:751px ){
+   
+    .Header-Container{
+    
+        width: 100%;
+        height: 10%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    .sections-wrapper{
+        display: flex;
+        flex-direction:row;
+    }
+    
+    
+    .about-profile{
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    
+    
+    .personal-Info{
+        width: 50%;
+    }
+    
+
+    .Info-details-container>p{
+        width: 500px;
+        padding-left: 50px;
+        padding-right:50px;
+    }
+    .Footer-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left-side-footer>h3{
+        margin-top: 20px;
+        text-align: center;
+        color:black;
+    }
+
+    .left-side-footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-side-footer>h3{
+        text-align: center;
+        color:black;
+    }
+
+    .right-side-footer{
+        width: 100%;
+    }
+
+}
